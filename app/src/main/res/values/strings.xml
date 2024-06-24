@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EasyFood</string>
+    <string name="about_app">...</string>
+    <string name="title_categories">Категории</string>
+    <string name="title_favorite">Любимое</string>
+    <string name="content_description_header_background">изображение для экрана со списком категорий рецептов</string>
+    <string name="content_description_for_card_image">Изображение категории</string>
+    <string name="content_description_of_burger_recipes_header_image">Изображения для экрана со списком рецептов бургеров</string>
+    <string name="title_burgers">Бургеры</string>
+    <string name="content_description_for_recipes_image">Изображение карточки рецепта</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_ingredients">Ингредиенты</string>
+    <string name="recipe_cooking_method">Способ приготовления</string>
+    <string name="content_description_recipe_screen">Изображение для экрана карточки рецепта</string>
+    <string name="ingredients_portions">Порции:</string>
+    <string name="content_description_favorites_icon">Иконка для добавления рецепта в избранное</string>
+    <string name="text_if_favorites_is_empty">У вас пока нет ни одного любимого рецепта</string>
+</resources>

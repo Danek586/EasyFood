@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="StyleTitle14" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserrat_alternates_semi_bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/main_text_size</item>
+    </style>
+    <style name="StyleTitlePortions" parent="StyleDescriptionOfCard">
+        <item name="android:textSize">@dimen/portions_text_size</item>
+    </style>
+    <style name="StyleIngredient" parent="StyleTitle14">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textColor">@color/card_description_color</item>
+    </style>
+    <style name="StyleMethod" parent="StyleIngredient">
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="StyleNavButton" parent="Widget.Material3.Button">
+        <item name="android:textAppearance">@style/StyleTitle14</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    <style name="StyleHeaderTitle" parent="StyleTitle14">
+        <item name="android:textSize">@dimen/header_title_text_size</item>
+        <item name="android:textColor">@color/header_textview_color</item>
+        <item name="android:padding">@dimen/header_textview_padding</item>
+        <item name="android:background">@drawable/shape_rounded_textview</item>
+        <item name="android:layout_marginBottom">@dimen/main_dimen</item>
+        <item name="android:layout_marginStart">@dimen/main_dimen</item>
+    </style>
+    <style name="StyleCardOfCategories">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="StyleTitleOfCard">
+        <item name="android:textSize">@dimen/main_text_size</item>
+        <item name="android:textColor">@color/header_textview_color</item>
+        <item name="android:fontFamily">@font/montserrat_alternates_semi_bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="StyleDescriptionOfCard">
+        <item name="android:textSize">@dimen/description_text_size</item>
+        <item name="android:fontFamily">@font/montserrat_alternates_medium</item>
+        <item name="android:textColor">@color/card_description_color</item>
+    </style>
+    <style name="StyleRecipeTitle" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/montserrat_alternates_semi_bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/header_title_text_size</item>
+        <item name="android:textColor">@color/header_textview_color</item>
+    </style>
+    <style name="StyleSeekBar">
+        <item name="android:thumb">@drawable/shape_seekbar_thumb</item>
+        <item name="android:progressDrawable">@drawable/shape_seekbar_progress</item>
+    </style>
+</resources>
